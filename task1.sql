@@ -19,5 +19,9 @@ alter table books add constraint fk_category foreign key (categoryId)
 references category(categoryId);
 
 
+alter table category add column tempColumn varchar(15);
+select * from category; 
+
+
 
 
