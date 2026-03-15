@@ -8,7 +8,7 @@ alter table employees add column hire_date date
 update employees set hire_date = '1-1-2005' where  emp_id=2
 update employees set hire_date = '2-2-2005' where  emp_id=3;
 update employees set hire_date = '5-5-2005' where  emp_id=6;
-update employees set hire_date = '10-10-2005' where  emp_id=10;
+update employees set hire_date = '5-5-2005' where  emp_id=10;
 
 
 create table works_on (
